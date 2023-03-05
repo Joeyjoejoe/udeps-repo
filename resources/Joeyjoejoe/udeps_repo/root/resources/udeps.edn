@@ -1,0 +1,6 @@
+{
+ :cfg/export-path "dist/"
+ :cfg/cache? false
+
+ :src/local  "dist/"
+}

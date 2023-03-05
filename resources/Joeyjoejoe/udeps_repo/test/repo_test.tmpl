@@ -1,0 +1,10 @@
+(ns {{top/ns}}.repo-test
+  (:require [clojure.test :refer :all]
+            [{{top/ns}}.repo :refer :all]))
+
+(deftest repo
+  (testing "return a map"
+    (is (map? (about))))
+
+  (testing "has a name"
+    (is (string? (:{{top/ns}}/repo-name (about))))))
